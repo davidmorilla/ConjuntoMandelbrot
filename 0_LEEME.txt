@@ -1,0 +1,12 @@
+Conjunto de Mandelbrot (basado en Julia):
+
+Mandel_J.c: Programa que genera una imagen .tga del conjunto fractal de Mandelbrot 
+
+Se ejecuta pasando 2 parámetros:
+	dim de la imagen de salida: p.e. 1000
+	Nº máximo de iteraciones: p.e. 100 para pruebas, 5000 para evaluar tiempos
+
+	$ ./Mandel_J 1000 5000
+	
+	genera mandelbrot.tga que se puede visualizar con "eog"
+	
